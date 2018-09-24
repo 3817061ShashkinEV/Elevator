@@ -5,12 +5,9 @@
 class TPassengers:public TElevator 
 {
 protected:
-int NumberOfPeople;
 int price;
 public:
-int GetNumberOfPeople();
-void SetNumberOfPeople();
 int GetPrice();
-void SetPrice();
+void SetPrice(int _price);
 };
 #endif

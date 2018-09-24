@@ -1,26 +1,15 @@
-#include "Passengers.h"
+#include "TPassengers.h"
 #include <iostream>
 using namespace std;
 
-int TPassengers::GetNumberOfPeople()
-{
-	return NumberOfPeople;
-}
-// ---------------------------------------------------------------------------
+
 int TPassengers::GetPrice()
 {
 	return price;
 }
 // ---------------------------------------------------------------------------
-void TPassengers::SetNumberOfPeople()
+void TPassengers::SetPrice(int _price)
 {
-  int WeightPerson=62;
-	NumberOfPeople=MaxWeight/WeightPerson;
-}
-// ---------------------------------------------------------------------------
-void TPassengers::SetPrice()
-{
-  int value=20;
-  price=Height*value;
+	price = _price;
 }
 // ---------------------------------------------------------------------------
