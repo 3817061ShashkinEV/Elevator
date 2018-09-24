@@ -12,6 +12,9 @@ protected:
 	int PassangersNumber;
 	int MaxPN;
 public:
+	TElevator();
+	TElevator(TElevator &c);
+	TElevator(float a, int b, int c);
 	void SetMaxWeight(float weight);
 	void SetPassNum(int n);
 	void SetHeight(int h);
@@ -25,9 +28,6 @@ public:
 	int GetHeight();
 	void SetStop(bool s);
 	bool GetStop();
-	TElevator();
-	TElevator(TElevator &c);
-	TElevator(float a, int b, int c);
-};
+};//TElevator
 #endif
-TElevator
+
