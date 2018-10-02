@@ -1,7 +1,7 @@
 #include <iostream>
-#include <TElevator.h>
-#include <TGoods.h>
-#include <TPassengers.h>
+#include "ElevatorLib\TElevator.h"
+#include "ElevatorLib\TGoods.h"
+#include "ElevatorLib\TPassengers.h"
 
 using namespace std;
 
